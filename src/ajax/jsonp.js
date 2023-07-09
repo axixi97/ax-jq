@@ -7,7 +7,7 @@ import "../ajax.js";
 var oldCallbacks = [],
 	rjsonp = /(=)\?(?=&|$)|\?\?/;
 
-// Default jsonp settings
+// Default jsonp settings   why not callback
 jQuery.ajaxSetup( {
 	jsonp: "callback",
 	jsonpCallback: function() {
